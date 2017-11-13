@@ -1,5 +1,6 @@
 today is Monday\n
 today i eat food\n
+today zhuwenjianchipi\n
 
 
 

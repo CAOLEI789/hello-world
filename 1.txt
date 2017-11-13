@@ -1,0 +1,212 @@
+10.167.129.80:软件地址
+8211:装软件联系
+
+
+Microsoft Windows [版本 6.1.7601]
+版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+C:\Users\caol.fnst\Downloads>pip -V
+pip 9.0.1 from c:\python36-32\lib\site-packages (python 3.6)
+
+C:\Users\caol.fnst\Downloads>pip install Pillow-4.3.0-cp36-cp36m-win32.whl
+Processing c:\users\caol.fnst\downloads\pillow-4.3.0-cp36-cp36m-win32.whl
+Collecting olefile (from Pillow==4.3.0)
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BE110>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032A5B70>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032A5CD0>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032A5C70>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032A5F10>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Could not find a version that satisfies the requirement olefile (from Pillow==
+4.3.0) (from versions: )
+No matching distribution found for olefile (from Pillow==4.3.0)
+
+C:\Users\caol.fnst\Downloads>pip
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependen
+cies.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be
+                              used up to 3 times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+
+C:\Users\caol.fnst\Downloads>pip install wheel
+Collecting wheel
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAE50>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAF10>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAFB0>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AACD0>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAE70>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Could not find a version that satisfies the requirement wheel (from versions:
+)
+No matching distribution found for wheel
+
+C:\Users\caol.fnst\Downloads>cd C:\Python36-32\Scripts
+
+C:\Python36-32\Scripts>pip install wheel
+Collecting wheel
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AD210>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AD050>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAFD0>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAD50>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032AAEF0>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/wheel/
+  Could not find a version that satisfies the requirement wheel (from versions:
+)
+No matching distribution found for wheel
+
+C:\Python36-32\Scripts>pip install C:\Users\caol.fnst\Downloads\wheel-0.30.0-py2
+.py3-none-any.whl
+Processing c:\users\caol.fnst\downloads\wheel-0.30.0-py2.py3-none-any.whl
+Installing collected packages: wheel
+Successfully installed wheel-0.30.0
+
+C:\Python36-32\Scripts>pip install Pillow-4.3.0-cp36-cp36m-win32.whl
+Requirement 'Pillow-4.3.0-cp36-cp36m-win32.whl' looks like a filename, but the f
+ile does not exist
+Processing c:\python36-32\scripts\pillow-4.3.0-cp36-cp36m-win32.whl
+Exception:
+Traceback (most recent call last):
+  File "c:\python36-32\lib\site-packages\pip\basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "c:\python36-32\lib\site-packages\pip\commands\install.py", line 335, in
+run
+    wb.build(autobuilding=True)
+  File "c:\python36-32\lib\site-packages\pip\wheel.py", line 749, in build
+    self.requirement_set.prepare_files(self.finder)
+  File "c:\python36-32\lib\site-packages\pip\req\req_set.py", line 380, in prepa
+re_files
+    ignore_dependencies=self.ignore_dependencies))
+  File "c:\python36-32\lib\site-packages\pip\req\req_set.py", line 620, in _prep
+are_file
+    session=self.session, hashes=hashes)
+  File "c:\python36-32\lib\site-packages\pip\download.py", line 809, in unpack_u
+rl
+    unpack_file_url(link, location, download_dir, hashes=hashes)
+  File "c:\python36-32\lib\site-packages\pip\download.py", line 715, in unpack_f
+ile_url
+    unpack_file(from_path, location, content_type, link)
+  File "c:\python36-32\lib\site-packages\pip\utils\__init__.py", line 599, in un
+pack_file
+    flatten=not filename.endswith('.whl')
+  File "c:\python36-32\lib\site-packages\pip\utils\__init__.py", line 482, in un
+zip_file
+    zipfp = open(filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Python36-32\\Script
+s\\Pillow-4.3.0-cp36-cp36m-win32.whl'
+
+C:\Python36-32\Scripts>cd C:\Users\caol.fnst\Downloads
+
+C:\Users\caol.fnst\Downloads>pip install Pillow-4.3.0-cp36-cp36m-win32.whl
+Processing c:\users\caol.fnst\downloads\pillow-4.3.0-cp36-cp36m-win32.whl
+Collecting olefile (from Pillow==4.3.0)
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BF690>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BF390>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BF370>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BF590>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connec
+tion broken by 'NewConnectionError('<pip._vendor.requests.packages.urllib3.conne
+ction.VerifiedHTTPSConnection object at 0x032BF430>: Failed to establish a new c
+onnection: [Errno 11004] getaddrinfo failed',)': /simple/olefile/
+  Could not find a version that satisfies the requirement olefile (from Pillow==
+4.3.0) (from versions: )
+No matching distribution found for olefile (from Pillow==4.3.0)
+
+C:\Users\caol.fnst\Downloads>
